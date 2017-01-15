@@ -1,0 +1,11 @@
+** A REST API defines a set of functions which developers can perform requests and receive responses via HTTP protocol such as GET and POST.
+* CodeIgniter is object oriented, uses MVC
+* Client–server – The client handles the front end the server handles the backend and can both be replaced independently of each other.
+*Stateless – No client data is stored on the server between requests and session state is stored on the client.
+*Cacheable – Clients can cache response (just like browsers caching static elements of a web page) to improve performance.
+
+** Use of a controller class:
+To connect model and view together
+
+** route: First go to default controller (Welcome page), then to the appliaction controller the user has given, by replacing Welcome with the user's controller-class file name.
+

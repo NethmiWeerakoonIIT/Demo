@@ -1,0 +1,12 @@
+Retrieve User's username and password both:
+SELECT username, password FROM User
+
+Enter user's Username and password:
+INSERT INTO User (username, password) VALUES (' John Doe', 'j123D ')
+
+
+Get user having specific username and password in User table: 
+
+SELECT * FROM User 
+WHERE username='John Doe' 
+AND password= 'j123D' ;
